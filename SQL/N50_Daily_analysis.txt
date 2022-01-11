@@ -1,0 +1,15 @@
+create table n50_daily_analysis (
+	Symbol varchar(30) primary key,
+	Prev_close float ,
+	Open float,
+	high float,
+	low float ,
+	last float,	
+	close float,
+	Deliverble float,
+	DayOpenChng float,
+	MaxChange float,
+	OpentoLastChng float
+)
+
+

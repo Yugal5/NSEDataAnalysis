@@ -1,0 +1,16 @@
+create table n50_daily_data (
+	 Symbol varchar(30) primary key,
+	Series varchar(10),
+	Prev_close float ,
+	Open float,
+	high float,
+	low float ,
+	last float,	
+	close float,
+	VWAP float ,
+	Volume float,
+	Trades int ,
+	Deliverble float
+)
+
+select * from n50_daily_data;
